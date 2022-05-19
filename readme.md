@@ -1,4 +1,8 @@
-# This is a template project to create multiplatform C programs
+# Multiplatform build for C
+
+The idea of this repository is to be very simple, just to show the basic idea.
+
+Only two SO and two compilers have been added but it can be extended.
 
 - It only depends on C
 - Unit tests
@@ -17,7 +21,9 @@ gcc build.c -o build && ./build
 ```
 
 ## Running unit tests
-Add -DTEST. For instance:
+Add -DTEST, for linux or windows.
+
+For instance:
 
 ```
 gcc -DTEST build.c -o build && ./build
