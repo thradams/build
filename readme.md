@@ -48,3 +48,15 @@ file1.c
 file2.c
   mult_test                                          OK
 ```
+
+The idea behind the maketest code generation is to be simple to be customized 
+instead of be very complex with a lot of options. The same for the build code.
+
+Some defines and function may be useful and common for many builds in this case
+they can be added into build.h for future use.
+
+
+
+
+
+
