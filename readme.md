@@ -21,7 +21,9 @@ gcc build.c -o build && ./build
 ```
 
 ## Running unit tests
-Add -DTEST. For instance:
+Add -DTEST, for linux or windows.
+
+For instance:
 
 ```
 gcc -DTEST build.c -o build && ./build
