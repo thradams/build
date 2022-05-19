@@ -1,21 +1,22 @@
 
 #include "file2.h"
-#include <stdbool.h>
 
-bool IsValid(const char* s)
+
+int mult(int a, int b)
 {
-    if (s == 0)
-        return false;
-    return true;
+    return a * b;
 }
 
 
-
 #ifdef TEST
-#define ASSERT(X) if (!(X)) return __LINE__
-int IsValidTest()
+
+int mult_test()
 {
-    ASSERT(!IsValid(0));
+    
+
+    if (mult(2, 3) != 6)
+        return __LINE__;
+
     return 0;
 }
 

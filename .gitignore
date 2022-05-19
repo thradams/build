@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/build2/v17
+/.vs
+*.obj
+*.exe
+/unit_test.c
