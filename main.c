@@ -1,12 +1,14 @@
 
 #include <stdio.h>
-int test_main(void);
 
+//forward declaration
+int test_main(void);
 
 
 int main()
 {
-#ifdef TEST    
+#ifdef TEST
+    printf("Hello Unit Test!\n");
     return test_main();
 #endif
 

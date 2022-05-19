@@ -11,8 +11,6 @@ int sum(int a, int b)
 
 int sum_test()
 {
-
-
     if (sum(2, 2) != 6)
         return __LINE__;
 
