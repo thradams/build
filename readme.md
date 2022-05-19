@@ -1,4 +1,4 @@
-# This is a template project to create multiplatform C programs
+# Multiplatform build for C
 
 - It only depends on C
 - Unit tests
