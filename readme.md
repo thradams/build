@@ -29,5 +29,22 @@ For instance:
 gcc -DTEST build.c -o build && ./build
 ```
 
+Output
 
+```
+build2$ gcc -DTEST build.c -o build && ./build
+Build using gcc
+----------------------------------------------------------------
+make test tool Thiago A 2021
+file1.c                                            1
+file2.c                                            1
+main.c                                             0
+file 'unit_test.c' was updated
+----------------------------------------------------------------
+Hello Unit Test!
 
+file1.c
+  sum_test                                           FAILED 15
+file2.c
+  mult_test                                          OK
+```
