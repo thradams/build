@@ -63,7 +63,7 @@ be used in any build.c.
 
 ## More details about maketest tool
 
-With -DTEST option the tool [tools\maketest.c](tools\maketest.c) is built in advance. Then it runs searching for 
+With -DTEST option the tool [tools/maketest.c](tools/maketest.c) is built in advance. Then it runs searching for 
 
 ```cpp
 #ifdef TEST
