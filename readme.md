@@ -20,7 +20,7 @@ Open the terminal
 gcc build.c -o build && ./build
 ```
 
-## Running unit tests
+## Build and run your C project with unit tests
 Add -DTEST, for linux or windows.
 
 For instance:
