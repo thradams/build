@@ -57,6 +57,31 @@ they can be added into build.h for future use.
 
 
 
+## More details about maketest tool
+The tool maketest searchs for 
+```cpp
+#ifdef TEST
+#endif
+```
+ ...and then for function pattern "int funcname()" or "int funcname(void)" inside ifdefs.
+ 
+```cpp
+#ifdef TEST
+int funcname()
+{
+  return 0;
+}
+#endif
+```
 
+In case you want to add your unit test facilities..
 
+#ifdef TEST
+#include "myunittest.h"
+int funcname()
+{
+  return 0;
+}
+#endif
+```
 
