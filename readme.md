@@ -55,11 +55,15 @@ instead of be very complex with a lot of options. The same for the build code.
 Some defines and function may be useful and common for many builds in this case
 they can be added into build.h for future use.
 
+## build.c
+[Build.c](build.c) is where we add your build "script". Preprocessor is very handy at this point
+to concatenate strings and have options. [build.h](build.h) is were we add common defines that ca
+be used in any build.c.
 
 
 ## More details about maketest tool
 
-With -DTEST option the tool is built before. Then it runs searching for 
+With -DTEST option the tool [maketest.c](tools\maketest.c) is built in advance. Then it runs searching for 
 
 ```cpp
 #ifdef TEST
