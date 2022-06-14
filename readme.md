@@ -1,6 +1,6 @@
 # Multiplatform build for C
 
-The idea of this repository is to be very simple, just to show the basic idea.
+The idea of this repository is to be very simple, just to show the **basic idea**.
 
 Only two SO and two compilers have been added but it can be extended.
 
@@ -49,7 +49,7 @@ file2.c
   mult_test                                          OK
 ```
 
-The idea behind the maketest code generation is to be simple to be customized 
+The idea behind the maketest code generation is to **be simple to be customized**
 instead of be very complex with a lot of options. The same for the build code.
 
 Some defines and function may be useful and common for many builds in this case
