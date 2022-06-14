@@ -58,7 +58,9 @@ they can be added into build.h for future use.
 
 
 ## More details about maketest tool
-The tool maketest searchs for 
+
+With -DTEST option the tool is built before. Then it runs searching for 
+
 ```cpp
 #ifdef TEST
 #endif
@@ -76,6 +78,7 @@ int funcname()
 
 In case you want to add your unit test facilities..
 
+```cpp
 #ifdef TEST
 #include "myunittest.h"
 int funcname()
