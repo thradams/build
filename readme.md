@@ -93,3 +93,9 @@ int funcname()
 #endif
 ```
 
+#How do I use?
+I don't use this build system for the cicle "do { build->debug } while(1)". For this
+task I use the IDE project. (Visual Studio for instance). It does not have the 
+"compile only changed files" feature.
+I use it to run unit test and to compile for other platftorms, for instance I use 
+WSL on windows to build the linux version using clang and gcc.
