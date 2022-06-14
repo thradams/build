@@ -83,6 +83,7 @@ In case you want to add your unit test facilities..
 #include "myunittest.h"
 int funcname()
 {
+  MY_ASSERT(1 == 1);
   return 0;
 }
 #endif
