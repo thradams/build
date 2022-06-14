@@ -7,13 +7,13 @@ Only two SO and two compilers have been added but it can be extended.
 - It only depends on C
 - Unit tests
 
-## Build on Windows
+## Building your C project on Windows
 
 Open the Developer command prompt and type
 ```
 cl build.c && build
 ```
-## Build on Linux
+## Building your C project on Linux
 
 Open the terminal
 ```
