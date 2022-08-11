@@ -21,6 +21,7 @@ gcc build.c -o build && ./build
 ```
 
 ## Build and run your C project with unit tests
+
 Add -DTEST, for linux or windows.
 
 For instance:
@@ -52,14 +53,19 @@ file2.c
 The idea behind the maketest code generation is to **be simple to be customized**
 instead of be very complex with a lot of options. The same for the build code.
 
-Some defines and function may be useful and common for many builds in this case
-they can be added into build.h for future use.
+The maketest is also a sample of a tool that is compiled and used by the build.
+Other tools can be added.
+
+Some defines and functions may be useful. A header file build.h is the complement
+for the build.
 
 ## build.c
-[Build.c](build.c) is where we add your build "script". Preprocessor is very handy at this point
-to concatenate strings and have options. [build.h](build.h) is were we add common defines that ca
-be used in any build.c.
 
+[Build.c](build.c) is where we add our build "script".
+Preprocessor is very handy at this point to concatenate strings and have options. 
+We also can pass options to the build using defines and use these define internally.
+
+[build.h](build.h) is were we add common defines and utils.
 
 ## More details about maketest tool
 
