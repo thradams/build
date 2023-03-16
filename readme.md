@@ -110,3 +110,6 @@ WSL on windows to build the linux version using clang and gcc. It is also used t
 the "deploy" or installer (this feature is not showed here)
 
 
+# Tool
+Command line tool to generate the directory structure with samples
+https://github.com/thradams/buildgen
